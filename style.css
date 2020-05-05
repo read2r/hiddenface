@@ -361,11 +361,12 @@ section {
 	display: block;
 }
 
-.ad-wrap {
+.ad-wrap1 {
 	width: 320px;
 	margin: 0 auto;
 }
 
-.kakao_ad_area {
+.ad-wrap2 {
+	width: 300px;
 	margin: 0 auto;
 }
