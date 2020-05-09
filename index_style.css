@@ -80,11 +80,7 @@ a:hover {
   text-align: left;
 }
 
-@media screen and (max-width: 600px) {
-  html {
-	font-size: 12px;
-  }
-	
+@media screen and (max-width: 600px) {	
   .navbar-brand {
 	font-size: 2rem;
   }
@@ -92,5 +88,17 @@ a:hover {
   .navbar {
     font-size: 1.5rem;
   }
+	
+  .card {
+    width: 350px;
+	height: 420px;
+  }
+	
+  .card-image-wrapper {
+    max-width: 350px;
+    max-height: 350px;
+    overflow: hidden;
+  }
+
 }
 
