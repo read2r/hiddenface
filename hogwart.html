@@ -83,7 +83,7 @@
 	</nav>
 
 	<section>
-		<img src="./images/hogwarts.png" class="hwt-emblem" />
+		<img src="./images/hogwarts.png" class="emblem" />
 		<h1 class="title">
 			AI 호그와트 기숙사 테스트
 		</h1>
@@ -107,7 +107,7 @@
 			<img class="file-upload-image" id="face-image" src="#" alt="your image" />
 			<div class="loader"></div>
 			<div id="result-wrap">
-				<div id="dorm-emblem-wrap"></div>
+				<div id="result-emblem-wrap"></div>
 				<div id="result-container">
 					<div id="result-title"></div>
 					<div id="result-ide"></div>
@@ -233,7 +233,7 @@
 		});
 
 		function setResult(prediction) {
-			var emblem = document.getElementById("dorm-emblem-wrap");
+			var emblem = document.getElementById("result-emblem-wrap");
 			var title = document.getElementById("result-title");
 			var ide = document.getElementById("result-ide");
 			var explain = document.getElementById("result-explain");
@@ -276,7 +276,7 @@
 				"sly": "슬리더린",
 				"hfl": "후플푸프"
 			}
-			var img = "<image src='./images/" + prediction[0].className + ".png' class='dorm-emblem'>";
+			var img = "<image src='./images/" + prediction[0].className + ".png' class='result-emblem'>";
 			emblem.innerHTML = img;
 			title.innerHTML = titleStr;
 			title.style.color = colors[prediction[0].className];

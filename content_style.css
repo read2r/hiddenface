@@ -38,14 +38,14 @@ section {
 	padding: 5%;
 }
 
-.hwt-emblem {
+.emblem {
 	width: 250px;
 	height: 250px;
 	display: block;
 	margin: 0 auto;
 }
 
-.dorm-emblem {
+.result-emblem {
 	width: 100px;
 	height: 100px;
 	display: block;
