@@ -219,91 +219,18 @@ section {
 .progress-bar {
   width: 100%;
   background-color: #e0e0e0;
-  border-radius: 7px;
+  border-radius: 10px;
 }
             
 .progress-bar-fill {
   color: #ffffff;
   display: block;
-  border-radius: 7px;
-                
-  transition: width 500ms ease-in-out;
-  padding: 5px;
-  text-align: center;
-}
-
-.progress-bar-grf {
-  width: 100%;
-  background-color: #f6b2b0;
-  border-radius: 10px;
-}
-            
-.progress-bar-fill-grf {
-  color: #ffffff;
-  display: block;
   border-radius: 10px;
                 
   transition: width 500ms ease-in-out;
   padding: 5px;
   text-align: center;
-	
-  background-color: #c61C17;
 }
-
-.progress-bar-rvn {
-  width: 100%;
-  background-color: #a4e8fa;
-  border-radius: 10px;
-}
-            
-.progress-bar-fill-rvn {
-  color: #ffffff;
-  display: block;
-  border-radius: 10px;
-                
-  transition: width 500ms ease-in-out;
-  padding: 5px;
-  text-align: center;
-	
-  background-color: #0982A4;
-}
-
-.progress-bar-sly {
-  width: 100%;
-  background-color: #b5eeb4;
-  border-radius: 10px;
-}
-            
-.progress-bar-fill-sly {
-  color: #ffffff;
-  display: block;
-  border-radius: 10px;
-                
-  transition: width 500ms ease-in-out;
-  padding: 5px;
-  text-align: center;
-	
-  background-color: #1E7E1C;
-}
-
-.progress-bar-hfl {
-  width: 100%;
-  background-color: #fbeaab;
-  border-radius: 10px;
-}
-            
-.progress-bar-fill-hfl {
-  color: #ffffff;
-  display: block;
-  border-radius: 10px;
-                
-  transition: width 500ms ease-in-out;
-  padding: 5px;
-  text-align: center;
-	
-  background-color: #E1B50C;
-}
-
 
 @media screen and (max-width: 600px) {
   html {
