@@ -83,7 +83,7 @@
 	</nav>
 
 	<section>
-		<img src="./images/nobel_emblem.png" class="emblem" />
+		<img src="https://storage.googleapis.com/hiddenface/nobel_prize/nobel_emblem.png" class="emblem" />
 		<h1 class="title">
 			노벨상 테스트
 		</h1>
@@ -97,7 +97,7 @@
 		<div class="image-upload-wrap">
 			<input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
 			<div class="drag-text">
-				<img src="./images/person.png" class="mt-5 pt-5" />
+				<img src="https://storage.googleapis.com/hiddenface/common/person.png" class="mt-5 pt-5" />
 				<p class="mb-5 pb-5 pt-4 explain">
 					얼굴 사진을 드래그하거나 눌러서 선택해주세요.
 				</p>
@@ -284,7 +284,7 @@
 				"sly": "슬리더린",
 				"hfl": "후플푸프"
 			}
-			var img = "<image src='./images/" + prediction[0].className + ".png' class='result-emblem'>";
+			var img = "<image src='https://storage.googleapis.com/hiddenface/hogwart/" + prediction[0].className + ".png' class='result-emblem'>";
 			emblem.innerHTML = img;
 			title.innerHTML = titleStr;
 			title.style.color = colors[prediction[0].className];
