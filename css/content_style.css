@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic:wght@400;700;800&display=swap');
+
 html, body {
   height:100%;
   font-family: 'Jua', sans-serif;
@@ -237,6 +239,35 @@ section {
   transition: width 500ms ease-in-out;
   padding: 5px;
   text-align: center;
+}
+
+.list-button {
+  width: 50%;
+  max-width: 300px;
+  margin: 2% auto;
+  color: #fff;
+  background: #464646;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: block;
+  margin: 20px auto;
+}
+
+.list-button:hover {
+  background: #888888;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.list-button:active {
+  border: 0;
+  transition: all .2s ease;
 }
 
 .addthis_inline_share_toolbox {

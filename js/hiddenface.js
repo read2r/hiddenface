@@ -2,15 +2,19 @@ let json;
 let URL;
 
 $(function () {
-	json = getThemeDataByJson();
-	let tm = json.tm;
-	let theme = json.theme;
+	var themeCode = getThemeCode();	
+	$.getJSON('../json/' + themeCode + '.json', function(data) {
+		json = data;
 	
-	URL = tm.url;
-	document.getElementById('theme-emblem').src = theme.emblem;
-	document.getElementById('theme-title').innerHTML = theme.title;
-	document.getElementById('theme-subtitle').innerHTML = theme.subtitle;
-	//document.getElementById('theme-title').innerHTML = theme.explain;
+		let tm = json.tm;
+		let theme = json.theme;
+	
+		URL = tm.url;
+		document.getElementById('theme-emblem').src = theme.emblem;
+		document.getElementById('theme-title').innerHTML = theme.title;
+		document.getElementById('theme-subtitle').innerHTML = theme.subtitle;
+		//document.getElementById('theme-title').innerHTML = theme.explain;
+	});
 });
 
 // More API functions here:
