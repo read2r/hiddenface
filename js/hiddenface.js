@@ -2,7 +2,7 @@ let json;
 let URL;
 
 $(function () {
-	var themeCode = getThemeCode();	
+	var themeCode = getThemeCode();
 	$.getJSON('../json/' + themeCode + '.json', function(data) {
 		json = data;
 	
@@ -77,11 +77,8 @@ function removeUpload() {
 	$('.image-upload-wrap').show();
 }
 
-function getImage(code) {
-	var img =
-		"<image src='https://storage.googleapis.com/hiddenface/hogwart/" +
-		code +
-		".png' class='result-emblem'>";
+function getImage(url) {
+	var img = "<image src='" + url + "' class='result-emblem'>";
 	return img;
 }
 
@@ -113,7 +110,8 @@ function displayResult(prediction) {
 		var resultCode = predictionObj.className;
 		var resultObj = json.results[resultCode];
 		var resultName = resultObj.name;
-
+		
+		var resultEmblem = resultObj.emblem;
 		var resultTitle = resultObj.title;
 		var resultSubtitle = resultObj.subtitle;
 		var resultExplain = resultObj.explain;
@@ -123,7 +121,7 @@ function displayResult(prediction) {
 		var resultValue = Math.round(predictionObj.probability * 100);
 
 		if (i == 0) {
-			emblem.innerHTML = getImage(resultCode);
+			emblem.innerHTML = getImage(resultEmblem);
 			title.innerHTML = resultTitle;
 			title.style.color = resultBarColor;
 			subtitle.innerHTML = resultSubtitle;

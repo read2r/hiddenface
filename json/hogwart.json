@@ -11,7 +11,7 @@
 	"results": {
 		"grf": {
 			"name": "그리핀도르",
-			"emblem": "",
+			"emblem": "https://storage.googleapis.com/hiddenface/hogwart/grf.png",
 			"title": "용기의 그리핀도르!",
 			"subtitle": "\"용기를 지닌 아이들은 누구나 가르치도록 하세\"",
 			"explain": "대담하고 용기 있는 자들을 위한 기숙사입니다. 그리핀도르의 용감함은 때때로 터무니 없어 보일 수 있습니다. 하지만 당신은 자신의 안의 두려움과 무모함을 무릅쓰고 당당히 맞서 싸워 쟁취하는 용기를 가지고 있습니다!",
@@ -20,7 +20,7 @@
 		},
 		"rvn": {
 			"name": "래번클로",
-			"emblem": "",
+			"emblem": "https://storage.googleapis.com/hiddenface/hogwart/rvn.png",
 			"title": "지혜의 래번클로!",
 			"subtitle": "\"가장 똑똑한 아이들을 가르치도록 하세\"",
 			"explain": "지혜롭고 사려깊은 자들을 위한 기숙사입니다. 래번클로는 지혜 뿐 아니라 각자의 독창성을 중요시 여기기 때문에 괴짜가 많은 곳으로도 유명합니다. 당신은 다른 사람들이 뭐라고하든 자신의 독창성을 유지하고 그에 맞는 지혜를 가지고 있습니다!",
@@ -29,7 +29,7 @@
 		},
 		"sly": {
 			"name": "슬리더린",
-			"emblem": "",
+			"emblem": "https://storage.googleapis.com/hiddenface/hogwart/sly.png",
 			"title": "순혈의 슬리더린!",
 			"subtitle": "\"가장 순수한 혈통을 지닌 자들만 가르치도록 하세\"",
 			"explain": "야망있고 재간있는 자들을 위한 기숙사입니다. 슬리더린은 경쟁심이 강하고 높은 야망을 가지고 있습니다. 그렇기에 대부분은 과정보다는 결과를 중요시 여기기 때문에 이기적으로 보일 수도 있습니다. 하지만 당신은 자신의 목표를 위해서라면 자신의 목숨도 걸만큼 큰 야망을 지니고 있습니다.",
@@ -38,7 +38,7 @@
 		},
 		"hfl": {
 			"name": "후플푸프",
-			"emblem": "",
+			"emblem": "https://storage.googleapis.com/hiddenface/hogwart/hfl.png",
 			"title": "관용의 후플푸프!",
 			"subtitle": "\"나는 그 아이들을 똑같이 가르칠걸세\"",
 			"explain": "성실하고 진실한 사람들을 위한 기숙사 입니다. 후플푸프는 모든 것을 진심으로 사랑하고 상냥합니다. 타고난 성품이 온화하기 때문에 무시 받기 쉽습니다. 하지만 당신은 옳은 것을 위해서라면 싸움도 무릅쓰지 않는 올곧은 마음과 정의를 가지고 있습니다!",
