@@ -13,46 +13,46 @@
 			"name": "탑",
 			"emblem": "https://storage.googleapis.com/hiddenface/lol_lane/top.png",
 			"title": "탑",
-			"subtitle": "\"협곡의 자존심, 탑신병자\"",
+			"subtitle": "",
 			"explain": "",
-			"backgroundColor": "",
-			"barColor": ""
+			"backgroundColor": "#F6CACA",
+			"barColor": "#DE4040"
 		},
 		"jng": {
 			"name": "정글",
 			"emblem": "https://storage.googleapis.com/hiddenface/lol_lane/jng.png",
 			"title": "정글",
-			"subtitle": "\"협곡의 사령관, 인간백정\"",
+			"subtitle": "",
 			"explain": "",
-			"backgroundColor": "",
-			"barColor": ""
+			"backgroundColor": "#CBE3BB",
+			"barColor": "#70AD47"
 		},
 		"mid": {
 			"name": "미드",
-			"emblem": "https://storage.googleapis.com/hiddenface/lol_lane/jng.png",
+			"emblem": "https://storage.googleapis.com/hiddenface/lol_lane/mid.png",
 			"title": "미드",
-			"subtitle": "\"협곡의 군주, 황족미드\"",
+			"subtitle": "",
 			"explain": "",
-			"backgroundColor": "",
-			"barColor": ""
+			"backgroundColor": "#FFE89F",
+			"barColor": "#FFC000"
 		},
 		"adc": {
 			"name": "원딜",
 			"emblem": "https://storage.googleapis.com/hiddenface/lol_lane/adc.png",
 			"title": "원딜",
-			"subtitle": "\"협곡의 딜링머신, 원징징이\"",
+			"subtitle": "",
 			"explain": "",
-			"backgroundColor": "",
-			"barColor": ""
+			"backgroundColor": "#BCCCEA",
+			"barColor": "#4472C4"
 		},
 		"sup": {
 			"name": "서포터",
 			"emblem": "https://storage.googleapis.com/hiddenface/lol_lane/sup.png",
 			"title": "서포터",
-			"subtitle": "\"협곡의 어머니, 도구 그 자체\"",
+			"subtitle": "",
 			"explain": "",
-			"backgroundColor": "",
-			"barColor": ""
+			"backgroundColor": "#EFC3DC",
+			"barColor": "#D14D98"
 		}
 	}
 }
