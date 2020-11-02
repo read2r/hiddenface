@@ -5,9 +5,12 @@ $(function () {
 
 		$.getJSON('../json/' + param + '.json', function (data) {
 			let json = data;
+			console.log(json);
 			
 			addHtmlInfo(json.html_info);
+			console.log(json.html_info);
 			addMetaData(json.meta_data);
+			console.log(json.meta_data);
 
 			let tm = json.tm;
 			let theme = json.theme;
