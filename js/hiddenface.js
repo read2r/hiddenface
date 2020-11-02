@@ -3,7 +3,6 @@ let URL;
 
 $(function () {
 	var themeCode = getThemeCode();
-	console.log(themeCode);
 	$.getJSON('../json/' + themeCode + '.json', function(data) {
 		json = data;
 	
