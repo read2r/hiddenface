@@ -3,19 +3,28 @@ let URL;
 
 $(function () {
 	var themeCode = getThemeCode();
+	console.log(themeCode);
 	$.getJSON('../json/' + themeCode + '.json', function(data) {
 		json = data;
 	
 		let tm = json.tm;
 		let theme = json.theme;
 	
-		URL = tm.url;
+		//URL = tm.url;
+		URL = "../model/" + themeCode + "/";
 		document.getElementById('theme-emblem').src = theme.emblem;
 		document.getElementById('theme-title').innerHTML = theme.title;
 		document.getElementById('theme-subtitle').innerHTML = theme.subtitle;
 		//document.getElementById('theme-title').innerHTML = theme.explain;
 	});
 });
+
+function getThemeCode() {
+	let pageUrl = window.location.href;
+	let temp = pageUrl.split("/");
+	let themeCode = temp[temp.length-1].split(".")[0];
+	return themeCode;
+}
 
 // More API functions here:
 // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image

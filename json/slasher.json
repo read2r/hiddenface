@@ -1,0 +1,58 @@
+{
+	"tm": {
+		"url": "https://teachablemachine.withgoogle.com/models/xvYgkyh_t/"
+	},
+	"theme": {
+		"emblem": "https://storage.googleapis.com/hiddenface/common/dummy.jpg",
+		"title": "내가 슬래셔 무비 살인마라면?",
+		"subtitle": "나의 슬래셔 살인마 타입은?",
+		"explain": ""
+	},
+	"results": {
+		"leather_face": {
+			"emblem": "https://storage.googleapis.com/hiddenface/common/dummy.jpg",
+			"title": "레더페이스",
+			"subtitle": "",
+			"explain": "텍사스 전기톱 학살에 등장하는 살인마, 모티브는 미국의 살인마 에드워드 게인",
+			"name": "레더페이스",
+			"barColor": "#720203",
+			"backgroundColor": "#360202"
+		},
+		"freddy_krueger": {
+			"emblem": "https://storage.googleapis.com/hiddenface/common/dummy.jpg",
+			"title": "프레디 크루거",
+			"subtitle": "",
+			"explain": "",
+			"name": "프레디 크루거",
+			"barColor": "#720203",
+			"backgroundColor": "#360202"
+		},
+		"jason_voorhees": {
+			"emblem": "https://storage.googleapis.com/hiddenface/common/dummy.jpg",
+			"title": "제이슨 부히스",
+			"subtitle": "",
+			"explain": "",
+			"name": "제이슨 부히스",
+			"barColor": "#720203",
+			"backgroundColor": "#360202"
+		},
+		"ghost_face": {
+			"emblem": "https://storage.googleapis.com/hiddenface/common/dummy.jpg",
+			"title": "고스트 페이스",
+			"subtitle": "",
+			"explain": "",
+			"name": "고스트 페이스",
+			"barColor": "#720203",
+			"backgroundColor": "#360202"
+		},
+		"michael_myers": {
+			"emblem": "https://storage.googleapis.com/hiddenface/common/dummy.jpg",
+			"title": "마이클 마이어스",
+			"subtitle": "",
+			"explain": "",
+			"name": "마이클 마이어스",
+			"barColor": "#720203",
+			"backgroundColor": "#360202"
+		}
+	}
+}

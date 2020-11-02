@@ -1,3 +1,0 @@
-function getThemeCode() {
-	return "hogwart";
-}
