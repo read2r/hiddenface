@@ -1,4 +1,8 @@
 {
+	"css": {
+		"cname_o": "cname10o",
+		"cname_s": "cname25s"
+	},
 	"html_info": {
 		"title": "해리포터 기숙사 테스트"
 	},

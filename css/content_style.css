@@ -8,7 +8,6 @@ html, body {
 }
 
 .theme-emblem {
-  max-height: 20%;
   max-width: 20%;
   min-width: 450px;
   display: block;
@@ -44,6 +43,46 @@ html, body {
 	margin-top: 2%;
 }
 
+.cname10o {
+  font-size: 1.2rem;
+  text-align:left;
+  display:inline-block;
+  width:10%;
+  min-width:30px;
+}
+
+.cname15o {
+  font-size: 1.2rem;
+  text-align:left;
+  display:inline-block;
+  width:15%;
+  min-width:40px;
+}
+
+.cname20o {
+  font-size: 1.2rem;
+  text-align:left;
+  display:inline-block;
+  width:20%;
+  min-width:40px;
+}
+
+.cname25o {
+  font-size: 1.2rem;
+  text-align:left;
+  display:inline-block;
+  width:25%;
+  min-width:40px;
+}
+
+.cname30o {
+  font-size: 1.2rem;
+  text-align:left;
+  display:inline-block;
+  width:30%;
+  min-width:40px;
+}
+
 section {
 	padding: 5%;
 }
@@ -64,7 +103,6 @@ section {
 
 .result-emblem {
 	width: 200px;
-	height: 200px;
 	display: block;
 	margin: 10px auto;
 	margin-top: 30px;
@@ -220,14 +258,6 @@ section {
 	margin: 12px;
 }
 
-.cname {
-  font-size: 1.2rem;
-  text-align:left;
-  display:inline-block;
-  width:10%;
-  min-width:80px;
-}
-
 .progress-wrapper {
   display:inline-block;
   width: 70%;
@@ -334,7 +364,7 @@ section {
   }
 
   #result-title {
-	font-size: 2rem;
+	font-size: 2.5rem;
   }
 
   #result-subtitle {
@@ -345,6 +375,39 @@ section {
   #result-explain {
 	font-size: 1.25rem;
 	margin-top: 2%;
+  }
+	
+  .cname15s {
+    font-size: 1.3rem;
+    text-align:left;
+    display:inline-block;
+    width:15%;
+    min-width:60px;
+  }
+
+  .cname20s {
+    font-size: 1.3rem;
+    text-align:left;
+    display:inline-block;
+    width:20%;
+    min-width:60px;
+  }
+
+  .cname25s {
+    font-size: 1.3rem;
+    text-align:left;
+    display:inline-block;
+    width:25%;
+    min-width:60px;
+  }
+
+
+  .cname30s {
+    font-size: 1.3rem;
+    text-align:left;
+    display:inline-block;
+    width:30%;
+    min-width:60px;
   }
 	
   .progress-wrapper {

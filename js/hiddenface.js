@@ -9,8 +9,8 @@ $(function () {
 		let tm = json.tm;
 		let theme = json.theme;
 	
-		//URL = tm.url;
-		URL = "../model/" + themeCode + "/";
+		URL = tm.url;
+		//URL = "../model/" + themeCode + "/";
 		document.getElementById('theme-emblem').src = theme.emblem;
 		document.getElementById('theme-title').innerHTML = theme.title;
 		document.getElementById('theme-subtitle').innerHTML = theme.subtitle;
@@ -85,14 +85,18 @@ function removeUpload() {
 	$('.image-upload-wrap').show();
 }
 
-function getImage(url) {
+function getEmblem(url) {
 	var img = "<image src='" + url + "' class='result-emblem'>";
 	return img;
 }
 
 function getClssPrediction(name, value, background, bar) {
 	var classPrediction =
-		"<div class='label-child-wrap'><div class='cname'>" +
+		"<div class='label-child-wrap'><div class='" +
+		json.css.cname_o +
+		" " +
+		json.css.cname_s +
+		"'>" +
 		name +
 		"</div><div class='progress-wrapper'><div class='progress-bar' style='background:" +
 		background +
@@ -129,7 +133,7 @@ function displayResult(prediction) {
 		var resultValue = Math.round(predictionObj.probability * 100);
 
 		if (i == 0) {
-			emblem.innerHTML = getImage(resultEmblem);
+			emblem.innerHTML = getEmblem(resultEmblem);
 			title.innerHTML = resultTitle;
 			title.style.color = resultBarColor;
 			subtitle.innerHTML = resultSubtitle;

@@ -1,4 +1,8 @@
 {
+	"css": {
+		"cname_o": "cname10o",
+		"cname_s": "cname15s"
+	},
 	"tm": {
 		"url": "https://teachablemachine.withgoogle.com/models/k8LDTh47w/"
 	},
