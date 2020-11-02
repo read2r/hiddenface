@@ -35,7 +35,9 @@ function addHtmlInfo(info) {
 
 function addMetaData(data) {
 	$("meta[property='og\\:title']").attr('content', data.title);
+	$("meta[property='og\\:type']").attr('content', data.type);
 	$("meta[property='og\\:url']").attr('content', data.url);
 	$("meta[property='og\\:description']").attr('content', data.description);
 	$("meta[property='og\\:image']").attr('content', data.image);
+	$("meta[property='og\\:image:alt']").attr('content', data.image_alt);
 }
