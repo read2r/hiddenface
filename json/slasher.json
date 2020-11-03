@@ -1,8 +1,4 @@
 {
-	"css": {
-		"cname_o": "cname15o",
-		"cname_s": "cname30s"
-	},
 	"tm": {
 		"url": "https://teachablemachine.withgoogle.com/models/xvYgkyh_t/"
 	},
@@ -58,5 +54,9 @@
 			"barColor": "#720203",
 			"backgroundColor": "#360202"
 		}
+	},
+	"css": {
+		"cname_o": "cname15o",
+		"cname_s": "cname30s"
 	}
 }

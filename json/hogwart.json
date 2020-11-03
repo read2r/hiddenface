@@ -1,19 +1,4 @@
 {
-	"css": {
-		"cname_o": "cname10o",
-		"cname_s": "cname25s"
-	},
-	"html_info": {
-		"title": "해리포터 기숙사 테스트"
-	},
-	"meta_data": {
-		"title": "해리포터 기숙사 테스트",
-		"type": "website",
-		"url": "https://hiddenface.site",
-		"description": "우리는 독창적이고, 고품질이며, 가치있고, 재미있는 테스트를 만들기 위해 노력하고 있습니다.",
-		"image": "https://storage.googleapis.com/hiddenface/hogwart/hogwart_emblem.png",
-		"image_alt": "A Real Me - 한국어"
-	},
 	"tm": {
 		"url": "https://teachablemachine.withgoogle.com/models/lmakvSP_g/"
 	},
@@ -60,5 +45,9 @@
 			"backgroundColor": "#fbeaab",
 			"barColor": "#e1b50c"
 		}
+	},
+	"css": {
+		"cname_o": "cname10o",
+		"cname_s": "cname25s"
 	}
 }
