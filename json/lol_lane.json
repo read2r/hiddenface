@@ -5,7 +5,7 @@
 	"theme": {
 		"emblem": "https://storage.googleapis.com/hiddenface/lol_lane/lol_emblem.jpg",
 		"title": "리그오브레전드 라인 테스트",
-		"subtitle": "나와 맞는 롤 라인은?",
+		"subtitle": "나와 맞는 롤 포지션은?",
 		"explain": ""
 	},
 	"results": {
@@ -13,8 +13,8 @@
 			"name": "탑",
 			"emblem": "https://storage.googleapis.com/hiddenface/lol_lane/top.png",
 			"title": "탑",
-			"subtitle": "",
-			"explain": "",
+			"subtitle": "\"팀은 졌지만 나는 이겼다.\"",
+			"explain": "상단 라인에서 플레이하는 포지션을 지칭한다. 타 라인에 거의 개입하지 않는 플레이 스타일 서로 잘 죽지 않는 탱커, 브루저류의 챔피언들이 오는 라인 특성상 그들만의 리그가 펼쳐지기도 한다. 팀의 승리보다 나의 승리, 나의 라인 승리를 더욱 값지게 평가하는 라인으로 그런 플레이 스타일 때문인지 '탑신병자'라는 별명도 있다. 정글의 영향력이 가장 큰 라인이기에 정글러와 가장 큰 마찰을 일으키기도 한다.(상대 정글은 라인에 사는데!!!)",
 			"backgroundColor": "#F6CACA",
 			"barColor": "#DE4040"
 		},
@@ -22,8 +22,8 @@
 			"name": "정글",
 			"emblem": "https://storage.googleapis.com/hiddenface/lol_lane/jng.png",
 			"title": "정글",
-			"subtitle": "",
-			"explain": "",
+			"subtitle": "\"협곡 정치의 중심\"",
+			"explain": "정글이라는 중립지역을 중점으로 운용하는 포지션을 지칭한다. 포지션 중 플레이가 가장 복잡하다. 시야 확보, 오브젝트 관리, 상대 정글과의 교전, 갱킹, 심지어 라인관리 까지하면서 정글까지 돌아야하는 매우 바쁜 포지션이다. 특히 라인전 초반부터 개입이 가능하므로 게임내 영향력이 강하며 동시에 그 막중한 책임 때문에 정치의 중심이 되기도 한다. 특히 탑과의 관계는 애증의 관계이며 갱킹을 성공할 경우 탑라인에 실리는 무게감이 크다.",
 			"backgroundColor": "#CBE3BB",
 			"barColor": "#70AD47"
 		},
@@ -31,8 +31,8 @@
 			"name": "미드",
 			"emblem": "https://storage.googleapis.com/hiddenface/lol_lane/mid.png",
 			"title": "미드",
-			"subtitle": "",
-			"explain": "",
+			"subtitle": "\"협곡의 황족\"",
+			"explain": "중심 라인에서 플레이하는 포지션을 지칭한다. 잦은 소규모 교전, 로밍, 대규모 한타 등 사실상 게임 내에서 가장 큰 영향력을 발휘하며 게임의 키맨 역할을 한다. 미드의 상황에 따라 게임의 판도가 바뀔 정도로 무게감과 가치가 가장 큰 라인이기에 가장 고귀한 라인으로 불린다. 그렇기에 인기 1순위 라인이기도 하며, 당장 롤판 최고의 프로게이머 최고의 인기스타 페이커 부터가 미드 라이너다. 그만큼 책임이 가장 높으며 미드가 못하면 사실상 게임이 터진다.",
 			"backgroundColor": "#FFE89F",
 			"barColor": "#FFC000"
 		},
@@ -40,8 +40,8 @@
 			"name": "원딜",
 			"emblem": "https://storage.googleapis.com/hiddenface/lol_lane/adc.png",
 			"title": "원딜",
-			"subtitle": "",
-			"explain": "",
+			"subtitle": "\"후반 게임을 책임진다\"",
+			"explain": "밑에서 딜링 위주로 플레이하는 포지션이다. 챔프 특성상 초중반에 약하며 중반부터 강해지기 시작한다. 그래서인지 원딜 유저들이 대개 초반에 투덜대는 경향이 있는데 이를 빗대어 원징징이라고도 불린다. 서포터와 같은 라인을 서게되며 라인 특성상 딜템만을 가기 때문에 몸이 약해 포지셔닝이 가장 중요하고 상대가 노리는 1순위이기 때문에 뇌지컬, 피지컬이 모두 필요한 라인이다.",
 			"backgroundColor": "#BCCCEA",
 			"barColor": "#4472C4"
 		},
@@ -49,8 +49,8 @@
 			"name": "서포터",
 			"emblem": "https://storage.googleapis.com/hiddenface/lol_lane/sup.png",
 			"title": "서포터",
-			"subtitle": "",
-			"explain": "",
+			"subtitle": "\"지금은 도구 그 자체\"",
+			"explain": "원딜을 서포팅 해주는 포지션이다. 자신의 성장이 아닌 원딜의 성장을 위해 희생하는 라인이다. 그래서인지 원딜에 묻어가는 경향이 있다. 하지만 강력한 CC를 바탕으로 라인전을 휘어잡고 다른 라인에 영향력을 끼칠수도 있기에 제 2의 정글로 불린다.예전에는 희생하는 부분이 크기에 예전에는 어머니라는 인식이 강했지만 호의가 계속되면 둘리가 되듯이 지금은 그냥 도구라고 불리기도 한다.",
 			"backgroundColor": "#EFC3DC",
 			"barColor": "#D14D98"
 		}
