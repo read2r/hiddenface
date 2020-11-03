@@ -10,45 +10,45 @@
 	},
 	"results": {
 		"leather_face": {
-			"emblem": "https://storage.googleapis.com/hiddenface/common/dummy.jpg",
+			"emblem": "https://storage.googleapis.com/hiddenface/slasher/leather_face.jpg",
 			"title": "레더 페이스",
-			"subtitle": "",
-			"explain": "텍사스 전기톱 학살에 등장하는 살인마, 모티브는 미국의 살인마 에드워드 게인",
+			"subtitle": "\“텍사스 전기톱 학살, 1974\”",
+			"explain": "",
 			"name": "레더 페이스",
 			"barColor": "#720203",
 			"backgroundColor": "#360202"
 		},
 		"freddy_krueger": {
-			"emblem": "https://storage.googleapis.com/hiddenface/common/dummy.jpg",
+			"emblem": "https://storage.googleapis.com/hiddenface/slasher/freddy_krueger.jpg",
 			"title": "프레디 크루거",
-			"subtitle": "",
+			"subtitle": "\”나이트메어, 1984\”",
 			"explain": "",
 			"name": "프레디 크루거",
 			"barColor": "#720203",
 			"backgroundColor": "#360202"
 		},
 		"jason_voorhees": {
-			"emblem": "https://storage.googleapis.com/hiddenface/common/dummy.jpg",
+			"emblem": "https://storage.googleapis.com/hiddenface/slasher/jason_voorhees.jpg",
 			"title": "제이슨 부히스",
-			"subtitle": "",
+			"subtitle": "\”13일의 금요일, 1980\”",
 			"explain": "",
 			"name": "제이슨 부히스",
 			"barColor": "#720203",
 			"backgroundColor": "#360202"
 		},
 		"ghost_face": {
-			"emblem": "https://storage.googleapis.com/hiddenface/common/dummy.jpg",
+			"emblem": "https://storage.googleapis.com/hiddenface/slasher/freddy_krueger.jpg",
 			"title": "고스트 페이스",
-			"subtitle": "",
+			"subtitle": "\”스크림, 1996\”",
 			"explain": "",
 			"name": "고스트 페이스",
 			"barColor": "#720203",
 			"backgroundColor": "#360202"
 		},
 		"michael_myers": {
-			"emblem": "https://storage.googleapis.com/hiddenface/common/dummy.jpg",
+			"emblem": "https://storage.googleapis.com/hiddenface/slasher/michael_myers.jpg",
 			"title": "마이클 마이어스",
-			"subtitle": "",
+			"subtitle": "\”할로윈, 1978\”",
 			"explain": "",
 			"name": "마이클 마이어스",
 			"barColor": "#720203",
