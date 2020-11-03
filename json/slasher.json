@@ -12,7 +12,7 @@
 		"leather_face": {
 			"emblem": "https://storage.googleapis.com/hiddenface/slasher/leather_face.jpg",
 			"title": "레더 페이스",
-			"subtitle": "\“텍사스 전기톱 학살, 1974\”",
+			"subtitle": "\"텍사스 전기톱 학살, 1974\"",
 			"explain": "",
 			"name": "레더 페이스",
 			"barColor": "#720203",
@@ -21,7 +21,7 @@
 		"freddy_krueger": {
 			"emblem": "https://storage.googleapis.com/hiddenface/slasher/freddy_krueger.jpg",
 			"title": "프레디 크루거",
-			"subtitle": "\”나이트메어, 1984\”",
+			"subtitle": "\"나이트메어, 1984\"",
 			"explain": "",
 			"name": "프레디 크루거",
 			"barColor": "#720203",
@@ -30,7 +30,7 @@
 		"jason_voorhees": {
 			"emblem": "https://storage.googleapis.com/hiddenface/slasher/jason_voorhees.jpg",
 			"title": "제이슨 부히스",
-			"subtitle": "\”13일의 금요일, 1980\”",
+			"subtitle": "\"13일의 금요일, 1980\"",
 			"explain": "",
 			"name": "제이슨 부히스",
 			"barColor": "#720203",
@@ -39,7 +39,7 @@
 		"ghost_face": {
 			"emblem": "https://storage.googleapis.com/hiddenface/slasher/freddy_krueger.jpg",
 			"title": "고스트 페이스",
-			"subtitle": "\”스크림, 1996\”",
+			"subtitle": "\"스크림, 1996\"",
 			"explain": "",
 			"name": "고스트 페이스",
 			"barColor": "#720203",
@@ -48,7 +48,7 @@
 		"michael_myers": {
 			"emblem": "https://storage.googleapis.com/hiddenface/slasher/michael_myers.jpg",
 			"title": "마이클 마이어스",
-			"subtitle": "\”할로윈, 1978\”",
+			"subtitle": "\"할로윈, 1978\"",
 			"explain": "",
 			"name": "마이클 마이어스",
 			"barColor": "#720203",
