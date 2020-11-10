@@ -11,7 +11,8 @@
 	"results": {
 		"grf": {
 			"name": "그리핀도르",
-			"emblem": "https://storage.googleapis.com/hiddenface/hogwart/grf.png",
+			"type": "emblem",
+			"url": "https://storage.googleapis.com/hiddenface/hogwart/grf.png",
 			"title": "용기의 그리핀도르!",
 			"subtitle": "\"용기를 지닌 아이들은 누구나 가르치도록 하세\"",
 			"explain": "대담하고 용기 있는 자들을 위한 기숙사입니다. 그리핀도르의 용감함은 때때로 터무니 없어 보일 수 있습니다. 하지만 당신은 자신의 안의 두려움과 무모함을 무릅쓰고 당당히 맞서 싸워 쟁취하는 용기를 가지고 있습니다!",
