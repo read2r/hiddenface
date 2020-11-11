@@ -1,0 +1,44 @@
+{
+	"tm": {
+		"url": "https://teachablemachine.withgoogle.com/models/W-E0WTaFS/"
+	},
+	"theme": {
+		"emblem": "https://storage.googleapis.com/hiddenface/dummy/dummy.jpg",
+		"title": "Theme Title",
+		"subtitle": "Theme Subtitle",
+		"explain": ""
+	},
+	"results": {
+		"dummy0": {
+			"name": "Dummy0",
+			"emblem": "https://storage.googleapis.com/hiddenface/dummy/dummy0.png",
+			"title": "Result Title",
+			"subtitle": "Result Subtitle",
+			"explain": "Result Explain",
+			"backgroundColor": "#f6b2b0",
+			"barColor": "#c61c17"
+		},
+		"dummy1": {
+			"name": "Dummy1",
+			"emblem": "https://storage.googleapis.com/hiddenface/dummy/dummy1.jpg",
+			"title": "Result Title",
+			"subtitle": "Result Subtitle",
+			"explain": "Result Explain",
+			"backgroundColor": "#f6b2b0",
+			"barColor": "#c61c17"
+		},
+		"dummy2": {
+			"name": "Dummy2",
+			"emblem": "https://storage.googleapis.com/hiddenface/dummy/dummy2.jpg",
+			"title": "Result Title",
+			"subtitle": "Result Subtitle",
+			"explain": "Result Explain",
+			"backgroundColor": "#f6b2b0",
+			"barColor": "#c61c17"
+		}
+	},
+	"css": {
+		"cname_o": "cname10o",
+		"cname_s": "cname25s"
+	}
+}
